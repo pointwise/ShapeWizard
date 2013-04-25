@@ -4,7 +4,7 @@ This script automates the generation of grids and/or database
 entities for common, simple shapes - boxes, cones, spheres, and
 sweeps.
 
-![ShapeWizardTk](https://raw.github.com/pointwise/ShapeWizard/master/ShapeWizard-Tk.png)
+![ShapeWizardTk](https://raw.github.com/pointwise/ShapeWizard/master/ShapeWizaard-Tk.png)
 
 # How It Works
 
@@ -64,6 +64,14 @@ Size: the Length and Width of the sweep surface
 Origin: The coordinates of the origin of the sweep
 
 Plane: You can specify the plane in which the sweep surface lies.
+
+## Script Files
+
+- ShapeWizard.glf is the main script, the one you execute from Pointwise.
+- sw_Box.glf consists of the functions used for Box shapes
+- sw_Cone.glf consists of the functions used for Cone shapes
+- sw_Sphere.glf consists of the functions used for Sphere shapes
+- sw_Sweep.glf consists of the functions used for Sweep shapes
 
 ## Disclaimer
 
