@@ -22,11 +22,14 @@ Dimension: You can specify the I, J, and K dimensions of structured grids.
 
 Average Ds: You can set the average spacing to be used for unstructured grids.
 
-## Specifications
+## Specifications and Type-Specific Data
 
-The inputs in this section vary depending on the setting of the Type 
-attribute. Furthermore, you have the option to either set the specificationsexplicitly using the Explicit controls or select them Interactively from 
-the Display window using Interactive Mode.
+The inputs in this section vary depending on the Type of shape being 
+created.  Furthermore, you have the option to either set the 
+specifications Explicitly or set them Interactively by selection
+locations in the Display wondow.
+
+The bottom frame of the GUI includes Type-specific information.
 
 ### Box
 
@@ -34,11 +37,16 @@ Size: The Length, Width, and Height of the box
 
 Origin: The box is centered on this 3D coordinate
 
+Orientation: A box created as a baffle can be have two sides open 
+along one axis direction.
+
 ### Cone
 
 Size: The Height, first Radius, and second Radius of the cone
 
 Origin: The 3D coordinate of the circle at the center of the first Radius
+
+Orientation: The axis along which the cone lies.
 
 ### Sphere
 
@@ -46,35 +54,16 @@ Radius: The radius of the sphere
 
 Origin: The center of the sphere
 
+Portion: You can specify whether to make a full sphere, hemisphere 
+or a quarter sphere.
+
 ### Sweep
 
 Size: the Length and Width of the sweep surface
 
 Origin: The coordinates of the origin of the sweep
 
-## Optional
-
-The lower left frame offers options that vary per shape Type.
-
-### Box
-
-A box created as a baffle can be have two sides open along one axis direction.
-
-### Cone
-
-You can specify the axis along which the cone lies.
-
-### Sphere
-
-You can specify whether to make a full sphere, hemisphere or a quartersphere.
-
-### Sweep
-
-You can specify the plane in which the sweep surface lies.
-
-
-
-
+Plane: You can specify the plane in which the sweep surface lies.
 
 ## Disclaimer
 
